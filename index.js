@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const util = require('utils');
-const generateMarkdown = require('./utils/generateMarkdown');
+//const util = require('utils');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
 
 // TODO: Create an array of questions for user input
@@ -24,42 +24,61 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'installguide',
+        name: 'installation',
         message: 'How do you install your app?'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'How do you use your app?'
+        message: 'Provide usage of the app.'
+    },
+    {
+        type: "list",
+        name: "license",
+        message: "Choose the appropriate license used for this project: ",
+        choices: [
+            "Apache",
+            "Academic",
+            "GNU",
+            "ISC",
+            "MIT",
+            "Mozilla",
+            "Open"
+        ]
     },
     {
         type: 'input',
-        name: 'license',
-        message: 'What licenses have you used?'
-    },
-    {
-        type: 'input',
-        name: 'contribution',
-        message: 'Contribution guidelines'
+        name: 'contributing',
+        message: 'Provide Contribution guidelines.'
     },
     {
         type: 'input',
         name: 'github',
-        message: 'Enter your github handle'
+        message: 'Enter your github handle.'
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Enter the command in order to test the application."
     },
     {
         type: 'input',
         name: 'email',
-        message: 'Enter your email address!'
+        message: 'Enter your email address.'
     }];
 
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-    .then((answers) => {
+    .then((data) => {
         // TODO: Create a function to write README file
-        fs.writeFile('ReadMe_new.md', generateMarkdown(data));
+        fs.writeFile('ReadMe_new.md', generateMarkdown(data), function (error){
+            if (error){
+                return console.log(error);
+            }
+            console.log("success");
+        });
     });
 
  }
