@@ -19,18 +19,23 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'tableofcontents',
-        message: 'Enter your Table of Contents'
-    },
-    {
-        type: 'input',
         name: 'installation',
         message: 'How do you install your app?'
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide usage of the app.'
+        message: 'Provide usage information of your app.'
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Provide Contribution guidelines.'
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Provide test instructions."
     },
     {
         type: "list",
@@ -48,19 +53,10 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributing',
-        message: 'Provide Contribution guidelines.'
-    },
-    {
-        type: 'input',
         name: 'github',
         message: 'Enter your github handle.'
     },
-    {
-        type: "input",
-        name: "tests",
-        message: "Enter the command in order to test the application."
-    },
+   
     {
         type: 'input',
         name: 'email',

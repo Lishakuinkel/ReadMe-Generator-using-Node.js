@@ -7,19 +7,19 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## License
-  ![${data.license}](https://img.shields.io/badge/license-${data.license}-green)
+  ![badge](https://img.shields.io/badge/License-${data.license}-green.svg) <br>
  
 
   ## Table of Contents
-  - [Description] (#description)
-  - [Installation] (#installation)
-  - [Usage] (#usage)
-  - [License] (#license)
-  - [Contributing] (#contributing)
-  - [Tests] (#tests)
-  - [Questions] (#questions)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-  ## Installation
+  ## Installation 
   To install the necessary dependencies, run the following command:
   ${data.installation}
 
