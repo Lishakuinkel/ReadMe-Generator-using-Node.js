@@ -7,6 +7,9 @@ Javascript, Node.js, Inquirer
 
 ## Demo video of the app 
 
+[Untitled_ Jun 29, 2023 10_33 PM.webm](https://github.com/Lishakuinkel/ReadMe-Generator-using-Node.js/assets/130411719/c7c7e9d9-c18d-440f-a698-c52b21e9df97)
+
+You can click here for the link to the video : https://drive.google.com/file/d/1LGfEkodYND3ewKsB0gHKuHvSBT0scOb2/view
 
 ## Your Task
 
