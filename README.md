@@ -1,4 +1,12 @@
-# 09 Node.js Challenge: Professional README Generator
+# Professional README Generator using Node.js
+
+This app allows users to input their desired content and populate them to the generated ReadMe_new.md file for their repositories. 
+
+## Technologies Used
+Javascript, Node.js, Inquirer
+
+## Demo video of the app 
+
 
 ## Your Task
 
