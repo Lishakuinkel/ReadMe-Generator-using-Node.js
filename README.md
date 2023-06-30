@@ -11,6 +11,14 @@ Javascript, Node.js, Inquirer
 
 You can click here for the link to the video: https://drive.google.com/file/d/1LGfEkodYND3ewKsB0gHKuHvSBT0scOb2/view
 
+## Screenshots of the working app
+
+<img width="1477" alt="image" src="https://github.com/Lishakuinkel/ReadMe-Generator-using-Node.js/assets/130411719/d6c2782b-72cb-4d14-a613-adb59eb20d3e">
+
+<img width="1467" alt="image" src="https://github.com/Lishakuinkel/ReadMe-Generator-using-Node.js/assets/130411719/38587670-53a0-495a-b993-f95e8a851ab2">
+
+<img width="1480" alt="image" src="https://github.com/Lishakuinkel/ReadMe-Generator-using-Node.js/assets/130411719/fd5ff55d-240a-4249-a4f2-83254af970f3">
+
 
 ## User Story
 
@@ -39,6 +47,8 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+
+
 
 ## Installation guide
 
